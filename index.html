@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Employee Details</title>
+    </head>
+    <body>
+        <a href="website.html">Switch to Website</a>
+        <h4>Personal details of employee</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Joining Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Gopi Savaliya</td>
+                    <td>gopi.savaliya@integrella.com</td>
+                    <td>3rd Jan, 2022</td>
+                </tr>
+                <tr>
+                    <td>Prakruti Gandhi</td>
+                    <td>prakruti.gandhi@integrella.com</td>
+                    <td>3rd Jan, 2022</td>
+                </tr>
+                <tr>
+                    <td>Daya Yadav</td>
+                    <td>daya.yadav@integrella.com</td>
+                    <td>3rd Jan, 2022</td>
+                </tr>
+            </tbody>
+        </table>
+        <br/>
+        <hr/>
+        <h1>Registration</h1>
+        <form action="#" method="POST">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="firstName" placeholder="Enter First Name" />
+            </div>
+            <br/>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lastName" placeholder="Enter Last Name" />
+            </div>
+            <br/>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Enter your e-mail" />
+            </div>
+            <br/>
+            <div>
+                <label>Gender</label>
+                <input type="radio" name="gender" />Male
+                <input type="radio" name="gender" />Feale
+            </div>
+            <br/>
+            <div>
+                <label>Address</label>
+                <textarea name="address" placeholder="Address"></textarea>
+            </div>
+            <br/>
+            <div>
+                <label>Hobbies</label>
+                <select name="hobbies">
+                    <option>Reading</option>
+                    <option>Travelling</option>
+                    <option>Dancing</option>
+                    <option>Singing</option>
+                </select>
+            </div>
+            <br/>
+            <div>
+                <label>Birthday</label>
+                <input type="date" name="birthday" />
+            </div>
+            <br/>
+            <div>
+                <label>Age</label>
+                <input type="number" name="age" value="22"/>
+            </div>
+            <br/>
+            <input type="submit" name="submit" value="Submit" />
+        </form> 
+    </body>
+</html>
