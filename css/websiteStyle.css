@@ -1,0 +1,104 @@
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#mainHeader{
+    background-color: rgb(70, 69, 69);
+    color: white;
+}
+
+#navbar{
+    background-color: grey;
+    color: white;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+#sectionContainer{
+    background: url('../images/bg.jpeg');
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+#sectionContainer .container h1{
+    margin-top: 90px;
+    color: grey;
+    font-style: 20px;
+}
+
+#mainSection{
+    float: left;
+    width: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#asideContainer{
+    float: left;
+    width: 30%;
+    background-color: rgb(70, 69, 69);
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+#asideContainer h3{
+    text-align: center;
+}
+
+.list{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.list li:nth-child(even){
+    background-color: grey;
+}
+
+.list a{
+    color: white;
+    text-decoration: none;
+}
+
+.list a:hover{
+    color: blue;
+}
+
+#mainFooter{
+    background-color: rgb(70, 69, 69);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+@media(max-width: 600px){
+    #mainSection{
+        float:none;
+        width: 100%;
+    }
+
+    #asideContainer{
+        float: none;
+        width: 100%;
+    }
+}

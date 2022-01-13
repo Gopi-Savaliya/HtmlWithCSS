@@ -1,0 +1,80 @@
+.container {
+    background-color:lightgray;
+    color:darkslategray;
+    font: normal 16px arial;
+    margin: auto;
+    width: 33%;
+    border: 3px black solid;
+    padding: 10px 30px;
+}
+
+.container h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container table{
+    align-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: green;
+}
+
+a:active{
+    color: red;
+}
+
+a:visited{
+    color: brown;
+}
+
+.formContent{
+    margin: auto;
+    width: 25%;
+    align-content: center;
+    background: url('../images/bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 20px 30px;
+}
+
+.formContent h1{
+    text-align: center;
+    color:darkslategray;
+}
+
+.formContent .formElement{
+    padding-bottom: 20px;
+    color:darkslategray;
+}
+
+.formContent .formElement label{
+    display: block;
+    margin-bottom: 2px;
+}
+
+.formContent .formElement input[type="text"], input[type="number"], input[type="email"], textarea{
+    padding: 5px;
+    width: 100%;
+    border-radius: 8px;
+    border: darkslategray 1px solid;
+}
+
+.button {
+    background-color: darkslategray;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-color: blue;
+}
